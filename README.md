@@ -28,7 +28,6 @@ All three Lambda functions used in this workflow are defined inside a **single f
 
 
 
-اطرح سؤالك على ChatGPT
 
 
 
