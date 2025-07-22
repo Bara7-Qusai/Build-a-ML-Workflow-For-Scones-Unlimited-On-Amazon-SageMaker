@@ -19,3 +19,18 @@ All three Lambda functions used in this workflow are defined inside a **single f
 1. **Data Serialization** – Loads input image data from S3 and prepares it for inference  
 2. **Model Inference** – Invokes the SageMaker endpoint to perform prediction  
 3. **Result Deserialization** – Processes the output and returns the final response
+
+
+---
+
+## Step Functions Workflow
+
+The complete pipeline is orchestrated using **AWS Step Functions**, connecting:
+
+- S3 (data storage)
+- Lambda functions (processing & inference)
+- SageMaker (training & hosting)
+
+📊 Workflow Diagram:  
+![Step Function]( )
+
