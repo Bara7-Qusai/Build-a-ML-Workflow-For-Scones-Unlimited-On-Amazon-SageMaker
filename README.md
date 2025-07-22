@@ -32,5 +32,5 @@ The complete pipeline is orchestrated using **AWS Step Functions**, connecting:
 - SageMaker (training & hosting)
 
 📊 Workflow Diagram:  
-![Step Function]( )
+![Step Function](stepfunctions_graph.png )
 
