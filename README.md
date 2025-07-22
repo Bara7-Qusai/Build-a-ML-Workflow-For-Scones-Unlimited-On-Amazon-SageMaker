@@ -17,8 +17,19 @@ We use the **CIFAR-100** dataset, which contains 60,000 color images (32×32 pix
 All three Lambda functions used in this workflow are defined inside a **single file: `lambda.py`**:
 
 1. **Data Serialization** – Loads input image data from S3 and prepares it for inference  
-2. **Model Inference** – Invokes the SageMaker endpoint to perform prediction  
-3. **Result Deserialization** – Processes the output and returns the final response
+2. **Classification** – Invokes the SageMaker endpoint to perform prediction  
+3. **Filter ** –  Filter out low-confidence predictions and return the final results
+
+
+
+
+
+
+
+
+
+اطرح سؤالك على ChatGPT
+
 
 
 ---
